@@ -1,9 +1,15 @@
 /* Reset básico */
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-family: "Fjalla One", sans-serif;
     color: #212121;
 }
 
@@ -38,7 +44,7 @@ nav a {
 
 nav a:hover {
     color: #ffd700;
-    transform: scale(1.05) /* amarelo suave no hover */
+    transform: scale(1.05); /* amarelo suave no hover */
 }
 
 /* Seções */
@@ -68,17 +74,9 @@ ul {
     list-style: none;
     padding: 0;
 }
-ul li {
-    background: #e9f6f0;
-    margin: 8px 0;
-    padding: 10px;
-    border-radius: 6px;
-    color: #3ca374;
-    font-weight: 500;
-}
 
 /* Sessão contato */
-.sessaoMito img {
+.sessaoContato img {
     width: 160px;
     margin: 20px 0;
     border-radius: 50%;
