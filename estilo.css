@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    color: #333;
+    color: #212121;
 }
 
 /* Corpo da página */
@@ -15,7 +15,7 @@ body {
 
 /* Cabeçalho e navegação */
 header {
-    background: #2c6e91;
+    background: #2cd793;
     color: white;
     padding: 20px;
     text-align: center;
@@ -37,7 +37,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffd700; /* amarelo suave no hover */
+    color: #ffd700;
+    transform: scale(1.05) /* amarelo suave no hover */
 }
 
 /* Seções */
